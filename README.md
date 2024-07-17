@@ -10,12 +10,22 @@ and Spiking Neural Network
 **Autohrs:** Yakir Hadad, Moshe Bensimon, Shlomo Greenberg and Yehuda Ben-Shimol 
 
 
-## Citation
-If you use our work in your research, please cite it using the following BibTeX entry:
+## Table of Contents
 
-```bibtex
+1. [Requirements](#requirements)
+2. [Usage](#usage)
+3. [License](#license)
 
+
+### Requirements
+```bash
+pip install -r requirements
 ```
+
+### Usage
+1. Download the dataset from [Dataset](https://www.kaggle.com/datasets/inancigdem/eeg-data-for-mental-attention-state-detection), into datasets folder.
+2. Run `signal2spikes.py` to create a "new" encoded dataset of all the signals after feature extraction with the resonators.
+3. run `train.py` to train the network with the encoded data.
 
 ## License
 
