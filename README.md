@@ -1,6 +1,6 @@
 # Mental Attention Detection Using SNN
 
-<embed src="./res/net_arch.pdf" type="application/pdf">
+![](./res/net_arch.png)
 
 **Title:** Situational Awareness Classification Based on EEG signals
 and Spiking Neural Network
