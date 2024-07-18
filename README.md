@@ -15,6 +15,15 @@ and Spiking Neural Network
 pip install -r requirements
 ```
 
+## Datasets
+Our [Dataset](https://www.kaggle.com/datasets/inancigdem/eeg-data-for-mental-attention-state-detection)  
+This is a collection of 34 experiments for monitoring of attention state in human individuals using passive EEG BCI.
+
+Each Matlab file contains the object of the data acquired from EMOTIV device during one experiment. The raw data is contained in o.data, which is array of size {number-of-samples}x25, thus o.data(:,i) comprises one data channel. The sampling frequency is 128 Hz. The list of data channels and their numerical ids is given below per EMOTIV documentation;
+The EEG data is in the channels 4:17.
+
+
+
 ### Usage
 1. Download the dataset from [Dataset](https://www.kaggle.com/datasets/inancigdem/eeg-data-for-mental-attention-state-detection), into datasets folder.
 2. Run `signal2spikes.py` to create a "new" encoded dataset of all the signals after feature extraction with the resonators.
