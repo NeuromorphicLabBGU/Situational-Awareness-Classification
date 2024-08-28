@@ -1,4 +1,4 @@
-# Situational Awareness Classification Based on EEG signals and SNN
+# Situational Awareness Classification
 
 ![](./res/net_arch.png)
 
