@@ -5,8 +5,9 @@
 **Autohrs:** Yakir Hadad, Moshe Bensimon, Shlomo Greenberg and Yehuda Ben-Shimol 
 
 ### Requirements
+For this code examples all you need is the [SCTN](https://github.com/NeuromorphicLabBGU/SCTN/tree/main) package that implement the spiking neuron that use as a building block of the resonator. 
 ```bash
-pip install -r requirements
+pip install sctn
 ```
 
 ## Dataset
